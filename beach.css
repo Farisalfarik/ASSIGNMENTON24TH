@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header .inside-header {
+  display: flex;
+  background: rgb(54, 54, 50);
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  display: block;
+}
+
+.logo img {
+  max-width: 150px;
+  height: auto;
+}
+/* 
+.main-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+} */
+
+.main-contact li {
+  margin-left: 20px;
+}
+
+.main-contact ul a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(235, 219, 219);
+  font-size: 25px;
+}
+.main-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  left: 400px;
+}
+
+.main-navigation li {
+  margin-left: 20px;
+}
+
+.main-navigation nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-navigation ul a {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.section {
+  height: 100vh;
+  background-image: url("image/beach.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+H1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  color: peru;
+  position: absolute;
+  left: 150px;
+  top: 220px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+  top: 300px;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: purple;
+}
+
+button:hover {
+  color: darkcyan;
+  background-color: beige;
+}
+
+p,
+button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-container a {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+
+.section a {
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  position: relative;
+  left: 650px;
+  top: 300px;
+}
+.footer {
+  padding: 20px;
+  width: 97.3%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  h1,
+  p {
+    font-size: 1em;
+  }
+}
