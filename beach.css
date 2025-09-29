@@ -21,33 +21,13 @@ body {
   max-width: 150px;
   height: auto;
 }
-/* 
-.main-contact ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-} */
-
-.main-contact li {
-  margin-left: 20px;
-}
 
 .main-contact ul a {
   display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-  color: rgb(235, 219, 219);
-  font-size: 25px;
 }
 .main-navigation ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
-  justify-content: end;
   position: relative;
   left: 400px;
 }
@@ -56,15 +36,8 @@ body {
   margin-left: 20px;
 }
 
-.main-navigation nav {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-
 .main-navigation ul a {
   display: flex;
-  justify-content: flex-end;
   text-decoration: none;
   color: white;
   font-size: 25px;
@@ -142,7 +115,7 @@ button {
   color: white;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   h1,
   p {
     font-size: 1em;
